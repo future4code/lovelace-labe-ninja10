@@ -1,10 +1,16 @@
 import React from 'react'
-import { AppContainer } from './components/AppContainer'
+import CadastrarServico from './components/CadastrarServico';
+import DetalhesServico from './components/DetalhesServico';
+import Carrinho from './components/Carrinho';
 
-function App() {
-	return (
-        <AppContainer />
-	)
-}
+export default class App extends React.Component {
+	render() {
+	  return (
+		<div>
+			<Carrinho></Carrinho>
+		</div>
+	  );
+	}
+  }
 
-export default App
+
