@@ -1,10 +1,14 @@
 import React from 'react'
-import { AppContainer } from './components/AppContainer'
+import CadastrarServico from './components/CadastrarServico';
 
-function App() {
-	return (
-        <AppContainer />
-	)
-}
+export default class App extends React.Component {
+	render() {
+	  return (
+		<div>
+			<CadastrarServico></CadastrarServico>
+		</div>
+	  );
+	}
+  }
 
-export default App
+
