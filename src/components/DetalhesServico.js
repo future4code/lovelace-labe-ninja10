@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ContainerDetalhesServico = styled.div ` 
-  background-color: ;
+  background-color: red;
   
   display: flex;
   flex-direction: column;
